@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+    --shadows-color: rgb(56, 55, 55);
+    --bd-colors: rgb(105, 137, 185);     
+}
+
+body{
+    font-family: 'Ubuntu';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background-color: var(--bd-colors);
+    padding: 25px;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 12px 12px 0 var(--shadows-color);
+    padding: 50px;
+    text-align: center;
+    max-width: 100%;
+    width: 800px;
+
+}
+h3{
+    margin: 0;
+    opacity: 0.5;
+    letter-spacing: 2px;
+
+}
+.joke{
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin: 50px auto;
+    max-width: 600px;
+}
+.btn{
+    color: #fff;
+    background-color: var(--bd-colors);
+    padding: 15px;
+    border-radius: 12px;
+    border: 0;
+    box-shadow: 0 5px 12px 0 var(--shadow-color);
+    padding: 10px 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn:focus{
+    outline: 0;
+}
+.btn:active{
+    transform: scale(.98);
+}
